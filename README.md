@@ -1,7 +1,7 @@
 # MIDI-Keyboard
 Introduction to Digital Logic Circuits: Final Project in VHDL on an FPGA
-Group Project: Eliriana Lleshi, Josh Stone, and Ethan Oliver 
-Spring 2019 
+
+Spring 2019 Group Project: Eliriana Lleshi, Josh Stone, and Ethan Oliver 
 
 FPGA used: Lattice iCE40UP5K
 
