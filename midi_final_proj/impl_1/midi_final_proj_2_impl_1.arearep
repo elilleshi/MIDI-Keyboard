@@ -1,0 +1,76 @@
+----------------------------------------------------------------------
+Report for cell top.TECH
+Register bits:  70 of 5280 (1.326%)
+I/O cells:      2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              EBR_B         2          100.0
+                               CCU2        23          100.0
+                            FD1P3XZ        70          100.0
+                         HSOSC_CORE         1          100.0
+                                 IB         1          100.0
+                              IOL_B         1          100.0
+                               LUT4       108          100.0
+                                 OB         1          100.0
+                              PLL_B         1          100.0
+SUB MODULES
+                           lscc_pll         1
+                   midi_interpreter         1
+                      midi_reciever         1
+                          play_note         1
+                                pll         1
+                            rom_lut         1
+                              TOTAL       214
+----------------------------------------------------------------------
+Report for cell play_note.v1
+Instance Path : sound_out
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              EBR_B         2          100.0
+                                FA2        17           73.9
+                            FD1P3XZ        33           47.1
+                               LUT4        25           23.1
+SUB MODULES
+                            rom_lut         1
+                              TOTAL        78
+----------------------------------------------------------------------
+Report for cell rom_lut.v1
+Instance Path : sound_out.get_frequency
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              EBR_B         2          100.0
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell midi_interpreter.v1
+Instance Path : midi_parse
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3XZ        12           17.1
+                               LUT4         9            8.3
+                              TOTAL        21
+----------------------------------------------------------------------
+Report for cell midi_reciever.v1
+Instance Path : midi_in
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2         6           26.1
+                            FD1P3XZ        25           35.7
+                              IOL_B         1          100.0
+                               LUT4        54           50.0
+                              TOTAL        86
+----------------------------------------------------------------------
+Report for cell pll.v1
+Instance Path : baud_sync
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              PLL_B         1          100.0
+SUB MODULES
+                           lscc_pll         1
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell lscc_pll.v1
+Instance Path : baud_sync.lscc_pll_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              PLL_B         1          100.0
+                              TOTAL         1
