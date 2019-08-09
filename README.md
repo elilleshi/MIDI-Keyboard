@@ -15,5 +15,5 @@ Dependencies:
 - midi_final_proj/play_note.vhd
   - midi_final_proj/rom_lut.vhd
   
-For more about this project, see "ES4 Final Project Writeup".  
+For more about this project, see "ES4 Final Project Writeup.pdf".  
 
