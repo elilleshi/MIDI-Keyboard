@@ -1,4 +1,4 @@
-# MIDI-Keyboard
+# MIDI-Keyboard, Spring 2019
 Introduction to Digital Logic Circuits: Final Project in VHDL on an FPGA
 
 Spring 2019 Group Project: Eliriana Lleshi, Josh Stone, and Ethan Oliver 
